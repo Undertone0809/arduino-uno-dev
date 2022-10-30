@@ -1,5 +1,5 @@
 # Arduino UNO R3 dev
-README: [English]() | [中文]()
+README: [English]() | [中文](./README.md)
 
 该仓库为笔者的Arduino在学习中的资料整理，网上有很多很不错的开源项目和资料，笔者做的只是把这些内容整合起来，希望可以对大家的学习有所帮助。
 
@@ -20,7 +20,7 @@ README: [English]() | [中文]()
 
 - [arduino 硬件资料/原理图](http://www.taichi-maker.com/homepage/reference-index/arduino-hardware-refrence/arduino-uno/)
 
-- [arduino数据手册pdf版本](https://gitee.com/zeeland/arduino-uno-r3/blob/master/doc/Atmel-42735-8-bit-AVR-Microcontroller-ATmega328-328P_Datasheet.pdf)
+- [arduino数据手册pdf版本](./doc/Atmel-42735-8-bit-AVR-Microcontroller-ATmega328-328P_Datasheet.pdf)
 
 
 
@@ -35,12 +35,11 @@ README: [English]() | [中文]()
 
 如果你有一些项目可以根据现有的开源代码作为基础开发，那么你大可以将现有的例程进行修改，修改为自己需要的例程，**以下例程为笔者在太极创客基础和Arduino库的基础上改进得到的自己需要的demo，现将这些例程开源，希望对大家有所帮助。**
 
+- [arduino控制舵机](./src/Servo)
+- [PWM控制LED亮度](./src/PWM/%E5%9F%BA%E4%BA%8EPWM%E7%9A%84LED%E6%B8%90%E5%8F%98)
+- [控制使用OLED1602](./src/OLED1306/)
 
-- [arduino控制舵机](https://gitee.com/zeeland/arduino-uno-r3/tree/master/src/Servo)
-- [PWM控制LED亮度](https://gitee.com/zeeland/arduino-uno-r3/tree/master/src/PWM/%E5%9F%BA%E4%BA%8EPWM%E7%9A%84LED%E6%B8%90%E5%8F%98)
-- [控制使用OLED1602](https://gitee.com/zeeland/arduino-uno-r3/tree/master/src/OLED1306/)
-
-- [AS608指纹模块的使用](https://gitee.com/zeeland/arduino-uno-r3/tree/master/src/AS608)
+- [AS608指纹模块的使用](./src/AS608)
 
 
 ## TODO
