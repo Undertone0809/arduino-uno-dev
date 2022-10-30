@@ -34,7 +34,7 @@ OLED 显示屏有四个引脚，分别是：
 
 ![image-20211114002140716](./../../doc/images/Snipaste_2022-10-31_03-41-59.png)
 
-<center>背面图</center>
+<p align='center'>背面图</p>
 
 模块背面的IIC ADRESSSELECT表示该模块在IIC通信作为从机时的地址，当中间的脚用电阻和左边接起来时，地址为0x78，当和右边接起来时，地址为0x7A。
 
