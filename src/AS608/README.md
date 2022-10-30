@@ -12,7 +12,8 @@ AS608模块可以用于指纹识别，下面将介绍一下AS608的基本使用�
 
 ![image-20211115232728111](./doc/../../../doc/images/Snipaste_2022-10-31_03-38-48.png)
 
-<center>图为AS608的引脚分布</center>
+
+<p align='center'>图为AS608的引脚分布</p>
 
 
 
@@ -24,7 +25,7 @@ AS608模块可以用于指纹识别，下面将介绍一下AS608的基本使用�
 
 ![image-20211115232735112](./../../doc/images/Snipaste_2022-10-31_03-40-01.png)
 
-<center>图为与Arduino的连接方式</center>
+<p align='center'>图为与Arduino的连接方式</p>
 
 > 如果使用不了可以尝试将RX和TX反接(不反接电源就行)
 
@@ -38,4 +39,4 @@ AS608模块可以用于指纹识别，下面将介绍一下AS608的基本使用�
 
 ![image-20211115232757868](./../../doc/images/Snipaste_2022-10-31_03-40-47.png)
 
-<center>图为AS608的例程</center>
+<p align='center'>图为AS608的例程</p>
