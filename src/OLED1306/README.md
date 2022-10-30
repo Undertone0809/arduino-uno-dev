@@ -21,7 +21,7 @@ OLED 显示屏有四个引脚，分别是：
 
 ## 连接方式
 
-![image-20211114002131262](https://gitee.com/zeeland/p9o23th09piewqf/raw/master/image-20211114002131262.png)
+![image-20211114002131262](./../../doc/images/Snipaste_2022-10-31_03-41-48.png)
 
 
 
@@ -32,7 +32,7 @@ OLED 显示屏有四个引脚，分别是：
 
 ## 通信地址
 
-![image-20211114002140716](https://gitee.com/zeeland/p9o23th09piewqf/raw/master/image-20211114002140716.png)
+![image-20211114002140716](./../../doc/images/Snipaste_2022-10-31_03-41-59.png)
 
 <center>背面图</center>
 
