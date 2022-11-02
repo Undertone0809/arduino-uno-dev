@@ -7,8 +7,9 @@ README: [English]() | [中文](./README.md)
   - [TODO](#todo)
   - [More](#more)
   - [Q\&A](#qa)
-  - [Distribution](#distribution)
+  - [How To Contribute?](#how-to-contribute)
 
+>  开源不易，为项目点个star:star:吧！
 
 ## Introduction
 该仓库为笔者的Arduino在学习中的资料整理，网上有很多很不错的开源项目和资料，笔者做的只是把这些内容整合起来，希望可以对大家的学习有所帮助。
@@ -37,7 +38,9 @@ README: [English]() | [中文](./README.md)
 - [ ] 英文文档的编写
 - [ ] 更多的demo
 - [ ] 参与贡献相关md的完善
-- [ ] 丰富文档
+- [ ] 丰富文档的内容
+- [ ] 补充更多的Q&A
+- [ ] 减少demo中的外链
 
 ## More
 
@@ -56,7 +59,7 @@ README: [English]() | [中文](./README.md)
 
 
 ## Q&A
-1. 零基础小白怎么快速上手？
+1. 零基础小白怎么快速上手Arduino？
   
 >   如果你是零基础的小白，我推荐从视频教程[太极创客b站入门教程](https://www.bilibili.com/video/BV164411J7GE?from=search&seid=7233181312177860307&spm_id_from=333.337.0.0)开始入门学起。
 
@@ -66,10 +69,22 @@ README: [English]() | [中文](./README.md)
 > 对于新手来说，arduino IDE已经足够了，且大多数时候使用arduino IDE开发都是很舒服的。但是platformio编译速度很快，相关开源环境也比较完善，如果熟悉了使用platformio，你会再也不想用arduino IDE进行开发，但是用platformio需要科学上网，有的时候初始化要很久，真的很头疼！
 
 
-## Distribution
+3. 没有开源项目经历，我该如何参与贡献代码？
 
-非常欢迎您**贡献文档，提出问题**，我们鼓励开发者以各种方式参与文档反馈和贡献。您可以**对现有文档进行评价、简单更改、反馈文档质量问题、贡献您的原创内容**。
+> 我们非常欢迎没有经验开源经验的小白在此贡献代码，TODO展示了该项目的一些待办事宜，我们非常欢迎大家参与TODO的贡献,详细可以参考[How To Contribute?](#how-to-contribute)
 
-如果你也想对本项目做出贡献，那么你可以先把该项目进行`fork` 或者 `git clone`到本地（推荐先`fork` 到自己仓库，然后再`clone`到本地，在本地新建一个`your-branch`分支继承`main`分支进行操作编辑，在`your-branch`修改对应文档或代码，markdown的图片可以存放在`/doc/images/`下，修改完成后`commit`你的修改内容，然后把你`your-branch`分支下的修改内容`push`到你的github仓库，最后，在github的仓库中`New pull request`，提交你分支的修改内容至author的仓库，等待author进一步review，如果author`merge`了你的代码，即视为贡献代码！
+
+4. git commit message要怎么写？
+
+> 参考[https://zhuanlan.zhihu.com/p/400870942](https://zhuanlan.zhihu.com/p/400870942)
+
+## How To Contribute?
+
+为了便于大家参与贡献，我将项目计划做了一些整理，主要参考[TODO](#todo),因为该项目为基础性项目，所以每个部分都比较容易参与进来，适合初入开源项目的小白，欢迎大家参与贡献。
+
+不仅是TODO的部分，demo中的bug、文档修改、提issue，甚至是错别字的修改，都可以视为一次修改，不要小瞧自己的力量。[issue](https://github.com/Undertone0809/arduino-uno-dev/issues)中会存放一些当前存在的问题，欢迎大家解决问题提供pr，如果你发现了问题，也欢迎你提出issue！
+
+
+如果你想对本项目做出贡献，提交**pr(pull request)**，那么你可以先把该项目进行`fork` 或者 `git clone`到本地（推荐先`fork` 到自己仓库，然后再`clone`到本地，在本地新建一个`your-branch`分支继承`main`分支进行操作编辑，在`your-branch`修改对应文档或代码，markdown的图片可以存放在`/doc/images/`下，修改完成后`commit`你的修改内容，然后把你`your-branch`分支下的修改内容`push`到你的github仓库，最后，在github的仓库中`New pull request`，提交你分支的修改内容至author的仓库，等待author进一步review，如果author`merge`了你的代码，即视为贡献代码！
 
 > 需要注意的是，在大多数情况下，fork下来的main分支一般需要和author的main分支保持同步，这就要求你最好不要在main分支上随意改动。
