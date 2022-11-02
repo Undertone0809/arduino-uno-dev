@@ -1,32 +1,8 @@
 # arduino控制舵机(servo)
 
-**相关资料**
+本教程将演示舵机的简单使用，包括如何使用舵机将其转动到特定的角度，如何使用串口通信控制舵机。
 
-| [通过 Servo库控制舵机视频教程](http://www.taichi-maker.com/homepage/reference-index/arduino-library-index/servo-library/#tutorial) |
-| ------------------------------------------------------------ |
-| [SERVO库简介](http://www.taichi-maker.com/homepage/reference-index/arduino-library-index/servo-library/#intro) |
-| [通过SERVO库控制舵机](http://www.taichi-maker.com/homepage/reference-index/arduino-library-index/servo-library/#circuit) |
-| [SERVO库函数](http://www.taichi-maker.com/homepage/reference-index/arduino-library-index/servo-library/#function) |
-
-
-
-### 上手教程
-
-------
-
-为了便于您学习如何使用Arduino通过Servo库控制舵机，太极创客团队专门录制了一系列视频教程：
-
-- [Arduino控制直流伺服电机](http://www.taichi-maker.com/homepage/arduino-tutorial-index/mearm-index/mearm-2-servo/)
-- [串口通讯控制伺服电机/舵机(1)](http://www.taichi-maker.com/homepage/arduino-tutorial-index/mearm-index/mearm-5-serial-servo-1/)
-- [串口通讯控制伺服电机/舵机(2)](http://www.taichi-maker.com/homepage/arduino-tutorial-index/mearm-index/mearm-6-serial-servo-2/)
-
-以上视频教程为《[零基础入门学用Arduino教程 – MeArm 篇](http://www.taichi-maker.com/homepage/arduino-tutorial-index/mearm-index/)》的一部分。您可以通过该教程学会如何通过Arduino开发板利用舵机控制MeArm机械臂。
-
-
-
-------
-
-### Servo库简介
+## Servo库介绍
 
 通过Servo库，您可以用Arduino控制舵机（伺服电机）。常见的Arduino舵机有两种，一种舵机轴可以旋转180度，还有一种舵机轴可以连续旋转。这种舵机的旋转速度是可以控制的。
 
@@ -40,9 +16,9 @@ Servo库允许大多数Arduino开发板（如Arduino Uno）同时控制12个舵�
 
 
 
-------
 
-### arduino连接舵机
+
+## arduino连接舵机
 
 舵机一般有3条引线，它们分别是电源线，接地线和信号线。**电源线一般是红色的。您可使用Arduino开发板的5V引脚为舵机供电。接地线通常是棕色或者黑色的，通常接地线是连接在Arduino开发板的接地引脚上的。信号线通常是桔红色，黄色或者是白色的。信号线通常是连接在Arduino开发板的数字输入输出引脚上的。**
 
@@ -134,4 +110,13 @@ void rotateSpecificAngle(int angle,int dir){
     }
   }
 ```
+
+## 参考资料
+
+- [通过 Servo库控制舵机视频教程](http://www.taichi-maker.com/homepage/reference-index/arduino-library-index/servo-library/#tutorial)
+- [SERVO库简介](http://www.taichi-maker.com/homepage/reference-index/arduino-library-index/servo-library/#intro)
+- [通过SERVO库控制舵机](http://www.taichi-maker.com/homepage/reference-index/arduino-library-index/servo-library/#circuit)
+- [SERVO库函数](http://www.taichi-maker.com/homepage/reference-index/arduino-library-index/servo-library/#function)
+
+
 
