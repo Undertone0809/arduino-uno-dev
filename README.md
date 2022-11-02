@@ -1,4 +1,7 @@
 # Arduino UNO R3 dev
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 README: [English]() | [中文](./README.md)
 
 - [Arduino UNO R3 dev](#arduino-uno-r3-dev)
@@ -88,3 +91,24 @@ README: [English]() | [中文](./README.md)
 如果你想对本项目做出贡献，提交**pr(pull request)**，那么你可以先把该项目进行`fork` 或者 `git clone`到本地（推荐先`fork` 到自己仓库，然后再`clone`到本地，在本地新建一个`your-branch`分支继承`main`分支进行操作编辑，在`your-branch`修改对应文档或代码，markdown的图片可以存放在`/doc/images/`下，修改完成后`commit`你的修改内容，然后把你`your-branch`分支下的修改内容`push`到你的github仓库，最后，在github的仓库中`New pull request`，提交你分支的修改内容至author的仓库，等待author进一步review，如果author`merge`了你的代码，即视为贡献代码！
 
 > 需要注意的是，在大多数情况下，fork下来的main分支一般需要和author的main分支保持同步，这就要求你最好不要在main分支上随意改动。
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center"><a href="https://github.com/Undertone0809"><img src="https://avatars.githubusercontent.com/u/72488598?v=4?s=100" width="100px;" alt="Zeeland"/><br /><sub><b>Zeeland</b></sub></a><br /><a href="https://github.com/Undertone0809/arduino-uno-dev/commits?author=Undertone0809" title="Documentation">📖</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
