@@ -11,6 +11,7 @@ README: [English]() | [中文](./README.md)
   - [More](#more)
   - [Q\&A](#qa)
   - [How To Contribute?](#how-to-contribute)
+  - [Contributors ✨](#contributors-)
 
 >  开源不易，为项目点个star:star:吧！
 
@@ -29,7 +30,8 @@ README: [English]() | [中文](./README.md)
 
 如果你有一些项目可以根据现有的开源代码作为基础开发，那么你大可以将现有的例程进行修改，修改为自己需要的例程，**以下例程为笔者在各种开源的项目基础上改进得到的自己需要的demo，现将这些例程开源，希望对大家有所帮助。**
 
-- [arduino控制舵机](./src/Servo)
+- [arduino控制简单舵机](./src/Servo)
+- [定时器和中断的使用方式](./src/InterruptAndTimer/)
 - [PWM控制LED亮度](./src/PWM/%E5%9F%BA%E4%BA%8EPWM%E7%9A%84LED%E6%B8%90%E5%8F%98)
 - [控制使用OLED1602](./src/OLED1306/)
 
