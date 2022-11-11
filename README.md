@@ -1,6 +1,6 @@
 # Arduino UNO R3 dev
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 README: [English]() | [中文](./README.md)
 
@@ -102,6 +102,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tbody>
     <tr>
       <td align="center"><a href="https://github.com/Undertone0809"><img src="https://avatars.githubusercontent.com/u/72488598?v=4?s=100" width="100px;" alt="Zeeland"/><br /><sub><b>Zeeland</b></sub></a><br /><a href="https://github.com/Undertone0809/arduino-uno-dev/commits?author=Undertone0809" title="Documentation">📖</a></td>
+      <td align="center"><a href="https://github.com/Reisen-C"><img src="https://avatars.githubusercontent.com/u/117102508?v=4?s=100" width="100px;" alt="Reisen-C"/><br /><sub><b>Reisen-C</b></sub></a><br /><a href="https://github.com/Undertone0809/arduino-uno-dev/commits?author=Reisen-C" title="Documentation">📖</a></td>
     </tr>
   </tbody>
 </table>
